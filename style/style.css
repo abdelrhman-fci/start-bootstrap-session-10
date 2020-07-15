@@ -1,0 +1,253 @@
+*{
+    list-style: none;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+/*start of nav*/
+.bg-light{
+background-image:url(../img/bg-pattern.png),linear-gradient(to right, #d72635,#7c4396) ;
+}
+nav ul li {
+color: white !important;
+text-transform: uppercase;
+font-size: small !important;
+font-weight: 400;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 2px;
+}
+/*end of nav*/
+
+/*satrt of header*/
+
+header{
+    background-image:url(../img/bg-pattern.png),linear-gradient(to right, #d72635,#7c4396) ;
+    background-attachment: fixed;
+    height: 680px;
+    
+} 
+
+.btn{
+border-radius: 300px;
+color: white;
+border-color: white;    
+text-transform: uppercase;
+padding: 17px 56px;
+font-weight: 400;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 2px;
+
+
+}
+header .row{margin: 0;}
+header , .sec3 a:hover{
+background-color:#fdcc52 !important;
+border-color:#fdcc52 !important ;
+transition: all .35s !important;    
+}
+.device-container{
+    max-width: 300px;
+    margin-top: 65px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.intro{
+    max-width:90% ;
+  margin: auto; 
+    
+    color: white;
+    font-weight: 300 ;
+    letter-spacing: 2px;
+
+}
+
+/*start of section 1*/
+
+.sec1{
+padding-top: 20px;
+    height: 450px;
+    background-color: #fdca4b;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text1{
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+.text1 h2{
+font-size: 40px;
+    font-weight: 100px;
+    letter-spacing: 4px;
+}
+.badge-link img{height: 60px;}
+.badge-link1 img{height: 60px;}
+.badge{margin: 20px;}
+ /*End of section one*/
+/*===============================================================*/
+/*start of section two featurese*/
+.featurese{
+    height: 700px;
+}
+
+.featurese .text1 p {
+    color:#6c757d;
+}
+.featurese .text1{
+line-height: 60px;
+margin-top: 180px;
+}
+.items{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+section.featurese .items i {
+        font-size: 105px;
+        
+        margin-bottom: 15px;
+        background:#dc2430;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+section.featurese .device-container, section.features .items {
+    max-width: 325px;
+    margin: 0 auto;
+}
+
+ .text-items p 
+{
+
+color:#6c757d ;
+font-size: 18px;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+/*end of section 2 featurese*/
+
+/*====================================*/
+/*start of sectoin 3*/
+
+.sec3{
+margin-top: 200px;
+height: 500px;
+background-image:linear-gradient(to right , rgb(0,0,0,0.4), rgb(0,0,0,0.4) ) ,url("../img/bg-cta.jpg") ;
+background-size: 100% 100%; 
+
+}
+
+
+.info h2{
+    
+      color: white;
+      font-weight: 500 ;
+      letter-spacing: 15px;
+      text-align: left;
+      font-size: 63px;
+     padding-bottom:40px;
+}
+
+.info{
+    margin: auto;
+    padding-top: 150px;
+}
+
+/*End of sectoin 3*/
+/*==================================================*/
+
+/*start of section 4*/
+
+.social{
+
+height: 300px;
+background-color:#fdc843 ;
+padding-top: 90px;
+
+
+}
+
+.social h2{
+
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    letter-spacing: 5px;
+    padding-left:50px ;
+    padding-bottom: 10px;
+    
+}
+.social .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none !important;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+/*End of sectoin 4*/
+/*================================*/
+/*start of footer*/
+footer{
+    background-color: black;
+    color:#6c757d ;
+    text-align: center;
+    height: 70px;
+}
+
+footer ul li a {
+
+    margin: 0;
+    color:#6c757d ;
+}
+footer p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*End of footer*/
+/*=========================*/
+
+
+
+
+
+
+
+
+
+
+/*start of media quary */
+@media (max-width: 1032px) {
+
+ .fff{
+     flex-direction: column; 
+ }
+ header{
+     height: auto;
+ }  
+ header h1 {
+     text-align: center;
+     font-size: 30px;
+     max-width: 100%;
+    padding-top: 70px;
+ }
+ .intro{
+     width: 100%;;
+     margin: auto;
+ }
+}
